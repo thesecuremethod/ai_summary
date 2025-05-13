@@ -1,0 +1,1271 @@
+Last login: Fri May  2 08:18:50 on ttys002
+mark@Marks-MacBook-Pro ~ % curl 'http://export.arxiv.org/api/query?search_query=(cat:cs.LG+OR+cat:cs.CL)+AND+(all:application+OR+all:deployment+OR+all:tool+OR+all:benchmark)&sortBy=submittedDate&sortOrder=descending&max_results=25'
+
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%28cat%3Acs.LG%20OR%20cat%3Acs.CL%29%20AND%20%28all%3Aapplication%20OR%20all%3Adeployment%20OR%20all%3Atool%20OR%20all%3Abenchmark%29%26id_list%3D%26start%3D0%26max_results%3D25" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=(cat:cs.LG OR cat:cs.CL) AND (all:application OR all:deployment OR all:tool OR all:benchmark)&amp;id_list=&amp;start=0&amp;max_results=25</title>
+  <id>http://arxiv.org/api/6L7WRjClxrTLcRhB3gS02cuRML8</id>
+  <updated>2025-05-11T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">107167</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">25</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05471v1</id>
+    <updated>2025-05-08T17:58:49Z</updated>
+    <published>2025-05-08T17:58:49Z</published>
+    <title>Facets of Disparate Impact: Evaluating Legally Consistent Bias in
+  Machine Learning</title>
+    <summary>  Leveraging current legal standards, we define bias through the lens of
+marginal benefits and objective testing with the novel metric "Objective
+Fairness Index". This index combines the contextual nuances of objective
+testing with metric stability, providing a legally consistent and reliable
+measure. Utilizing the Objective Fairness Index, we provide fresh insights into
+sensitive machine learning applications, such as COMPAS (recidivism
+prediction), highlighting the metric's practical and theoretical significance.
+The Objective Fairness Index allows one to differentiate between discriminatory
+tests and systemic disparities.
+</summary>
+    <author>
+      <name>Jarren Briscoe</name>
+    </author>
+    <author>
+      <name>Assefaw Gebremedhin</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1145/3627673.3679925</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1145/3627673.3679925" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">CIKM 2024</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05471v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05471v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05467v1</id>
+    <updated>2025-05-08T17:57:40Z</updated>
+    <published>2025-05-08T17:57:40Z</published>
+    <title>StreamBridge: Turning Your Offline Video Large Language Model into a
+  Proactive Streaming Assistant</title>
+    <summary>  We present StreamBridge, a simple yet effective framework that seamlessly
+transforms offline Video-LLMs into streaming-capable models. It addresses two
+fundamental challenges in adapting existing models into online scenarios: (1)
+limited capability for multi-turn real-time understanding, and (2) lack of
+proactive response mechanisms. Specifically, StreamBridge incorporates (1) a
+memory buffer combined with a round-decayed compression strategy, supporting
+long-context multi-turn interactions, and (2) a decoupled, lightweight
+activation model that can be effortlessly integrated into existing Video-LLMs,
+enabling continuous proactive responses. To further support StreamBridge, we
+construct Stream-IT, a large-scale dataset tailored for streaming video
+understanding, featuring interleaved video-text sequences and diverse
+instruction formats. Extensive experiments show that StreamBridge significantly
+improves the streaming understanding capabilities of offline Video-LLMs across
+various tasks, outperforming even proprietary models such as GPT-4o and Gemini
+1.5 Pro. Simultaneously, it achieves competitive or superior performance on
+standard video understanding benchmarks.
+</summary>
+    <author>
+      <name>Haibo Wang</name>
+    </author>
+    <author>
+      <name>Bo Feng</name>
+    </author>
+    <author>
+      <name>Zhengfeng Lai</name>
+    </author>
+    <author>
+      <name>Mingze Xu</name>
+    </author>
+    <author>
+      <name>Shiyu Li</name>
+    </author>
+    <author>
+      <name>Weifeng Ge</name>
+    </author>
+    <author>
+      <name>Afshin Dehghan</name>
+    </author>
+    <author>
+      <name>Meng Cao</name>
+    </author>
+    <author>
+      <name>Ping Huang</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05467v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05467v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05465v1</id>
+    <updated>2025-05-08T17:56:57Z</updated>
+    <published>2025-05-08T17:56:57Z</published>
+    <title>ComPO: Preference Alignment via Comparison Oracles</title>
+    <summary>  Direct alignment methods are increasingly used for aligning large language
+models (LLMs) with human preferences. However, these methods suffer from the
+issues of verbosity and likelihood displacement, which can be driven by the
+noisy preference pairs that induce similar likelihood for preferred and
+dispreferred responses. The contributions of this paper are two-fold. First, we
+propose a new preference alignment method based on comparison oracles and
+provide the convergence guarantee for its basic scheme. Second, we improve our
+method using some heuristics and conduct the experiments to demonstrate the
+flexibility and compatibility of practical scheme in improving the performance
+of LLMs using noisy preference pairs. Evaluations are conducted across multiple
+base and instruction-tuned models (Mistral-7B, Llama-3-8B and Gemma-2-9B) with
+benchmarks (AlpacaEval 2, MT-Bench and Arena-Hard). Experimental results show
+the effectiveness of our method as an alternative to addressing the limitations
+of existing direct alignment methods. A highlight of our work is that we
+evidence the importance of designing specialized methods for preference pairs
+with distinct likelihood margin, which complements the recent findings in
+\citet{Razin-2025-Unintentional}.
+</summary>
+    <author>
+      <name>Peter Chen</name>
+    </author>
+    <author>
+      <name>Xi Chen</name>
+    </author>
+    <author>
+      <name>Wotao Yin</name>
+    </author>
+    <author>
+      <name>Tianyi Lin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05465v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05465v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05464v1</id>
+    <updated>2025-05-08T17:56:23Z</updated>
+    <published>2025-05-08T17:56:23Z</published>
+    <title>Bring Reason to Vision: Understanding Perception and Reasoning through
+  Model Merging</title>
+    <summary>  Vision-Language Models (VLMs) combine visual perception with the general
+capabilities, such as reasoning, of Large Language Models (LLMs). However, the
+mechanisms by which these two abilities can be combined and contribute remain
+poorly understood. In this work, we explore to compose perception and reasoning
+through model merging that connects parameters of different models. Unlike
+previous works that often focus on merging models of the same kind, we propose
+merging models across modalities, enabling the incorporation of the reasoning
+capabilities of LLMs into VLMs. Through extensive experiments, we demonstrate
+that model merging offers a successful pathway to transfer reasoning abilities
+from LLMs to VLMs in a training-free manner. Moreover, we utilize the merged
+models to understand the internal mechanism of perception and reasoning and how
+merging affects it. We find that perception capabilities are predominantly
+encoded in the early layers of the model, whereas reasoning is largely
+facilitated by the middle-to-late layers. After merging, we observe that all
+layers begin to contribute to reasoning, whereas the distribution of perception
+abilities across layers remains largely unchanged. These observations shed
+light on the potential of model merging as a tool for multimodal integration
+and interpretation.
+</summary>
+    <author>
+      <name>Shiqi Chen</name>
+    </author>
+    <author>
+      <name>Jinghan Zhang</name>
+    </author>
+    <author>
+      <name>Tongyao Zhu</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Siyang Gao</name>
+    </author>
+    <author>
+      <name>Miao Xiong</name>
+    </author>
+    <author>
+      <name>Manling Li</name>
+    </author>
+    <author>
+      <name>Junxian He</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">ICML 2025. Our code is publicly available at
+  https://github.com/shiqichen17/VLM_Merging</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05464v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05464v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05459v1</id>
+    <updated>2025-05-08T17:51:20Z</updated>
+    <published>2025-05-08T17:51:20Z</published>
+    <title>UKElectionNarratives: A Dataset of Misleading Narratives Surrounding
+  Recent UK General Elections</title>
+    <summary>  Misleading narratives play a crucial role in shaping public opinion during
+elections, as they can influence how voters perceive candidates and political
+parties. This entails the need to detect these narratives accurately. To
+address this, we introduce the first taxonomy of common misleading narratives
+that circulated during recent elections in Europe. Based on this taxonomy, we
+construct and analyse UKElectionNarratives: the first dataset of
+human-annotated misleading narratives which circulated during the UK General
+Elections in 2019 and 2024. We also benchmark Pre-trained and Large Language
+Models (focusing on GPT-4o), studying their effectiveness in detecting
+election-related misleading narratives. Finally, we discuss potential use cases
+and make recommendations for future research directions using the proposed
+codebook and dataset.
+</summary>
+    <author>
+      <name>Fatima Haouari</name>
+    </author>
+    <author>
+      <name>Carolina Scarton</name>
+    </author>
+    <author>
+      <name>Nicolò Faggiani</name>
+    </author>
+    <author>
+      <name>Nikolaos Nikolaidis</name>
+    </author>
+    <author>
+      <name>Bonka Kotseva</name>
+    </author>
+    <author>
+      <name>Ibrahim Abu Farha</name>
+    </author>
+    <author>
+      <name>Jens Linge</name>
+    </author>
+    <author>
+      <name>Kalina Bontcheva</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This work was accepted at the International AAAI Conference on Web
+  and Social Media (ICWSM 2025)</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05459v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05459v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05452v1</id>
+    <updated>2025-05-08T17:43:35Z</updated>
+    <published>2025-05-08T17:43:35Z</published>
+    <title>RL-DAUNCE: Reinforcement Learning-Driven Data Assimilation with
+  Uncertainty-Aware Constrained Ensembles</title>
+    <summary>  Machine learning has become a powerful tool for enhancing data assimilation.
+While supervised learning remains the standard method, reinforcement learning
+(RL) offers unique advantages through its sequential decision-making framework,
+which naturally fits the iterative nature of data assimilation by dynamically
+balancing model forecasts with observations. We develop RL-DAUNCE, a new
+RL-based method that enhances data assimilation with physical constraints
+through three key aspects. First, RL-DAUNCE inherits the computational
+efficiency of machine learning while it uniquely structures its agents to
+mirror ensemble members in conventional data assimilation methods. Second,
+RL-DAUNCE emphasizes uncertainty quantification by advancing multiple ensemble
+members, moving beyond simple mean-state optimization. Third, RL-DAUNCE's
+ensemble-as-agents design facilitates the enforcement of physical constraints
+during the assimilation process, which is crucial to improving the state
+estimation and subsequent forecasting. A primal-dual optimization strategy is
+developed to enforce constraints, which dynamically penalizes the reward
+function to ensure constraint satisfaction throughout the learning process.
+Also, state variable bounds are respected by constraining the RL action space.
+Together, these features ensure physical consistency without sacrificing
+efficiency. RL-DAUNCE is applied to the Madden-Julian Oscillation, an
+intermittent atmospheric phenomenon characterized by strongly non-Gaussian
+features and multiple physical constraints. RL-DAUNCE outperforms the standard
+ensemble Kalman filter (EnKF), which fails catastrophically due to the
+violation of physical constraints. Notably, RL-DAUNCE matches the performance
+of constrained EnKF, particularly in recovering intermittent signals, capturing
+extreme events, and quantifying uncertainties, while requiring substantially
+less computational effort.
+</summary>
+    <author>
+      <name>Pouria Behnoudfar</name>
+    </author>
+    <author>
+      <name>Nan Chen</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05452v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05452v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05446v1</id>
+    <updated>2025-05-08T17:37:36Z</updated>
+    <published>2025-05-08T17:37:36Z</published>
+    <title>Adaptive Markup Language Generation for Contextually-Grounded Visual
+  Document Understanding</title>
+    <summary>  Visual Document Understanding has become essential with the increase of
+text-rich visual content. This field poses significant challenges due to the
+need for effective integration of visual perception and textual comprehension,
+particularly across diverse document types with complex layouts. Moreover,
+existing fine-tuning datasets for this domain often fall short in providing the
+detailed contextual information for robust understanding, leading to
+hallucinations and limited comprehension of spatial relationships among visual
+elements. To address these challenges, we propose an innovative pipeline that
+utilizes adaptive generation of markup languages, such as Markdown, JSON, HTML,
+and TiKZ, to build highly structured document representations and deliver
+contextually-grounded responses. We introduce two fine-grained structured
+datasets: DocMark-Pile, comprising approximately 3.8M pretraining data pairs
+for document parsing, and DocMark-Instruct, featuring 624k fine-tuning data
+annotations for grounded instruction following. Extensive experiments
+demonstrate that our proposed model significantly outperforms existing
+state-of-theart MLLMs across a range of visual document understanding
+benchmarks, facilitating advanced reasoning and comprehension capabilities in
+complex visual scenarios. Our code and models are released at https://github.
+com/Euphoria16/DocMark.
+</summary>
+    <author>
+      <name>Han Xiao</name>
+    </author>
+    <author>
+      <name>Yina Xie</name>
+    </author>
+    <author>
+      <name>Guanxin Tan</name>
+    </author>
+    <author>
+      <name>Yinghao Chen</name>
+    </author>
+    <author>
+      <name>Rui Hu</name>
+    </author>
+    <author>
+      <name>Ke Wang</name>
+    </author>
+    <author>
+      <name>Aojun Zhou</name>
+    </author>
+    <author>
+      <name>Hao Li</name>
+    </author>
+    <author>
+      <name>Hao Shao</name>
+    </author>
+    <author>
+      <name>Xudong Lu</name>
+    </author>
+    <author>
+      <name>Peng Gao</name>
+    </author>
+    <author>
+      <name>Yafei Wen</name>
+    </author>
+    <author>
+      <name>Xiaoxin Chen</name>
+    </author>
+    <author>
+      <name>Shuai Ren</name>
+    </author>
+    <author>
+      <name>Hongsheng Li</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">CVPR2025</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05446v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05446v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05445v1</id>
+    <updated>2025-05-08T17:36:36Z</updated>
+    <published>2025-05-08T17:36:36Z</published>
+    <title>clem:todd: A Framework for the Systematic Benchmarking of LLM-Based
+  Task-Oriented Dialogue System Realisations</title>
+    <summary>  The emergence of instruction-tuned large language models (LLMs) has advanced
+the field of dialogue systems, enabling both realistic user simulations and
+robust multi-turn conversational agents. However, existing research often
+evaluates these components in isolation-either focusing on a single user
+simulator or a specific system design-limiting the generalisability of insights
+across architectures and configurations. In this work, we propose clem todd
+(chat-optimized LLMs for task-oriented dialogue systems development), a
+flexible framework for systematically evaluating dialogue systems under
+consistent conditions. clem todd enables detailed benchmarking across
+combinations of user simulators and dialogue systems, whether existing models
+from literature or newly developed ones. It supports plug-and-play integration
+and ensures uniform datasets, evaluation metrics, and computational
+constraints. We showcase clem todd's flexibility by re-evaluating existing
+task-oriented dialogue systems within this unified setup and integrating three
+newly proposed dialogue systems into the same evaluation pipeline. Our results
+provide actionable insights into how architecture, scale, and prompting
+strategies affect dialogue performance, offering practical guidance for
+building efficient and effective conversational AI systems.
+</summary>
+    <author>
+      <name>Chalamalasetti Kranti</name>
+    </author>
+    <author>
+      <name>Sherzod Hakimov</name>
+    </author>
+    <author>
+      <name>David Schlangen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05445v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05445v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05427v1</id>
+    <updated>2025-05-08T17:15:20Z</updated>
+    <published>2025-05-08T17:15:20Z</published>
+    <title>Ultra-FineWeb: Efficient Data Filtering and Verification for
+  High-Quality LLM Training Data</title>
+    <summary>  Data quality has become a key factor in enhancing model performance with the
+rapid development of large language models (LLMs). Model-driven data filtering
+has increasingly become a primary approach for acquiring high-quality data.
+However, it still faces two main challenges: (1) the lack of an efficient data
+verification strategy makes it difficult to provide timely feedback on data
+quality; and (2) the selection of seed data for training classifiers lacks
+clear criteria and relies heavily on human expertise, introducing a degree of
+subjectivity. To address the first challenge, we introduce an efficient
+verification strategy that enables rapid evaluation of the impact of data on
+LLM training with minimal computational cost. To tackle the second challenge,
+we build upon the assumption that high-quality seed data is beneficial for LLM
+training, and by integrating the proposed verification strategy, we optimize
+the selection of positive and negative samples and propose an efficient data
+filtering pipeline. This pipeline not only improves filtering efficiency,
+classifier quality, and robustness, but also significantly reduces experimental
+and inference costs. In addition, to efficiently filter high-quality data, we
+employ a lightweight classifier based on fastText, and successfully apply the
+filtering pipeline to two widely-used pre-training corpora, FineWeb and Chinese
+FineWeb datasets, resulting in the creation of the higher-quality Ultra-FineWeb
+dataset. Ultra-FineWeb contains approximately 1 trillion English tokens and 120
+billion Chinese tokens. Empirical results demonstrate that the LLMs trained on
+Ultra-FineWeb exhibit significant performance improvements across multiple
+benchmark tasks, validating the effectiveness of our pipeline in enhancing both
+data quality and training efficiency.
+</summary>
+    <author>
+      <name>Yudong Wang</name>
+    </author>
+    <author>
+      <name>Zixuan Fu</name>
+    </author>
+    <author>
+      <name>Jie Cai</name>
+    </author>
+    <author>
+      <name>Peijun Tang</name>
+    </author>
+    <author>
+      <name>Hongya Lyu</name>
+    </author>
+    <author>
+      <name>Yewei Fang</name>
+    </author>
+    <author>
+      <name>Zhi Zheng</name>
+    </author>
+    <author>
+      <name>Jie Zhou</name>
+    </author>
+    <author>
+      <name>Guoyang Zeng</name>
+    </author>
+    <author>
+      <name>Chaojun Xiao</name>
+    </author>
+    <author>
+      <name>Xu Han</name>
+    </author>
+    <author>
+      <name>Zhiyuan Liu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">The datasets are available on
+  https://huggingface.co/datasets/openbmb/UltraFineWeb</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05427v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05427v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05423v1</id>
+    <updated>2025-05-08T17:12:56Z</updated>
+    <published>2025-05-08T17:12:56Z</published>
+    <title>TransProQA: an LLM-based literary Translation evaluation metric with
+  Professional Question Answering</title>
+    <summary>  The impact of Large Language Models (LLMs) has extended into literary
+domains. However, existing evaluation metrics prioritize mechanical accuracy
+over artistic expression and tend to overrate machine translation (MT) as being
+superior to experienced professional human translation. In the long run, this
+bias could result in a permanent decline in translation quality and cultural
+authenticity. In response to the urgent need for a specialized literary
+evaluation metric, we introduce TransProQA, a novel, reference-free, LLM-based
+question-answering (QA) framework designed specifically for literary
+translation evaluation. TransProQA uniquely integrates insights from
+professional literary translators and researchers, focusing on critical
+elements in literary quality assessment such as literary devices, cultural
+understanding, and authorial voice. Our extensive evaluation shows that while
+literary-finetuned XCOMET-XL yields marginal gains, TransProQA substantially
+outperforms current metrics, achieving up to 0.07 gain in correlation (ACC-EQ
+and Kendall's tau) and surpassing the best state-of-the-art (SOTA) metrics by
+over 15 points in adequacy assessments. Incorporating professional translator
+insights as weights further improves performance, highlighting the value of
+translator inputs. Notably, TransProQA approaches human-level evaluation
+performance comparable to trained linguistic annotators. It demonstrates broad
+applicability to open-source models such as LLaMA3.3-70b and Qwen2.5-32b,
+indicating its potential as an accessible and training-free literary evaluation
+metric and a valuable tool for evaluating texts that require local processing
+due to copyright or ethical considerations.
+</summary>
+    <author>
+      <name>Ran Zhang</name>
+    </author>
+    <author>
+      <name>Wei Zhao</name>
+    </author>
+    <author>
+      <name>Lieve Macken</name>
+    </author>
+    <author>
+      <name>Steffen Eger</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">WIP</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05423v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05423v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05422v1</id>
+    <updated>2025-05-08T17:12:19Z</updated>
+    <published>2025-05-08T17:12:19Z</published>
+    <title>TokLIP: Marry Visual Tokens to CLIP for Multimodal Comprehension and
+  Generation</title>
+    <summary>  Pioneering token-based works such as Chameleon and Emu3 have established a
+foundation for multimodal unification but face challenges of high training
+computational overhead and limited comprehension performance due to a lack of
+high-level semantics. In this paper, we introduce TokLIP, a visual tokenizer
+that enhances comprehension by semanticizing vector-quantized (VQ) tokens and
+incorporating CLIP-level semantics while enabling end-to-end multimodal
+autoregressive training with standard VQ tokens. TokLIP integrates a low-level
+discrete VQ tokenizer with a ViT-based token encoder to capture high-level
+continuous semantics. Unlike previous approaches (e.g., VILA-U) that discretize
+high-level features, TokLIP disentangles training objectives for comprehension
+and generation, allowing the direct application of advanced VQ tokenizers
+without the need for tailored quantization operations. Our empirical results
+demonstrate that TokLIP achieves exceptional data efficiency, empowering visual
+tokens with high-level semantic understanding while enhancing low-level
+generative capacity, making it well-suited for autoregressive Transformers in
+both comprehension and generation tasks. The code and models are available at
+https://github.com/TencentARC/TokLIP.
+</summary>
+    <author>
+      <name>Haokun Lin</name>
+    </author>
+    <author>
+      <name>Teng Wang</name>
+    </author>
+    <author>
+      <name>Yixiao Ge</name>
+    </author>
+    <author>
+      <name>Yuying Ge</name>
+    </author>
+    <author>
+      <name>Zhichao Lu</name>
+    </author>
+    <author>
+      <name>Ying Wei</name>
+    </author>
+    <author>
+      <name>Qingfu Zhang</name>
+    </author>
+    <author>
+      <name>Zhenan Sun</name>
+    </author>
+    <author>
+      <name>Ying Shan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Technical Report</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05422v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05422v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05413v1</id>
+    <updated>2025-05-08T16:54:48Z</updated>
+    <published>2025-05-08T16:54:48Z</published>
+    <title>DPQ-HD: Post-Training Compression for Ultra-Low Power Hyperdimensional
+  Computing</title>
+    <summary>  Hyperdimensional Computing (HDC) is emerging as a promising approach for edge
+AI, offering a balance between accuracy and efficiency. However, current
+HDC-based applications often rely on high-precision models and/or encoding
+matrices to achieve competitive performance, which imposes significant
+computational and memory demands, especially for ultra-low power devices. While
+recent efforts use techniques like precision reduction and pruning to increase
+the efficiency, most require retraining to maintain performance, making them
+expensive and impractical. To address this issue, we propose a novel Post
+Training Compression algorithm, Decomposition-Pruning-Quantization (DPQ-HD),
+which aims at compressing the end-to-end HDC system, achieving near floating
+point performance without the need of retraining. DPQ-HD reduces computational
+and memory overhead by uniquely combining the above three compression
+techniques and efficiently adapts to hardware constraints. Additionally, we
+introduce an energy-efficient inference approach that progressively evaluates
+similarity scores such as cosine similarity and performs early exit to reduce
+the computation, accelerating prediction inference while maintaining accuracy.
+We demonstrate that DPQ-HD achieves up to 20-100x reduction in memory for image
+and graph classification tasks with only a 1-2% drop in accuracy compared to
+uncompressed workloads. Lastly, we show that DPQ-HD outperforms the existing
+post-training compression methods and performs better or at par with
+retraining-based state-of-the-art techniques, requiring significantly less
+overall optimization time (up to 100x) and faster inference (up to 56x) on a
+microcontroller
+</summary>
+    <author>
+      <name>Nilesh Prasad Pandey</name>
+    </author>
+    <author>
+      <name>Shriniwas Kulkarni</name>
+    </author>
+    <author>
+      <name>David Wang</name>
+    </author>
+    <author>
+      <name>Onat Gungor</name>
+    </author>
+    <author>
+      <name>Flavio Ponzina</name>
+    </author>
+    <author>
+      <name>Tajana Rosing</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05413v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05413v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05409v1</id>
+    <updated>2025-05-08T16:51:03Z</updated>
+    <published>2025-05-08T16:51:03Z</published>
+    <title>Hide &amp; Seek: Transformer Symmetries Obscure Sharpness &amp; Riemannian
+  Geometry Finds It</title>
+    <summary>  The concept of sharpness has been successfully applied to traditional
+architectures like MLPs and CNNs to predict their generalization. For
+transformers, however, recent work reported weak correlation between flatness
+and generalization. We argue that existing sharpness measures fail for
+transformers, because they have much richer symmetries in their attention
+mechanism that induce directions in parameter space along which the network or
+its loss remain identical. We posit that sharpness must account fully for these
+symmetries, and thus we redefine it on a quotient manifold that results from
+quotienting out the transformer symmetries, thereby removing their ambiguities.
+Leveraging tools from Riemannian geometry, we propose a fully general notion of
+sharpness, in terms of a geodesic ball on the symmetry-corrected quotient
+manifold. In practice, we need to resort to approximating the geodesics. Doing
+so up to first order yields existing adaptive sharpness measures, and we
+demonstrate that including higher-order terms is crucial to recover correlation
+with generalization. We present results on diagonal networks with synthetic
+data, and show that our geodesic sharpness reveals strong correlation for
+real-world transformers on both text and image classification tasks.
+</summary>
+    <author>
+      <name>Marvin F. da Silva</name>
+    </author>
+    <author>
+      <name>Felix Dangel</name>
+    </author>
+    <author>
+      <name>Sageev Oore</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05409v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05409v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05396v1</id>
+    <updated>2025-05-08T16:32:55Z</updated>
+    <published>2025-05-08T16:32:55Z</published>
+    <title>A Pain Assessment Framework based on multimodal data and Deep Machine
+  Learning methods</title>
+    <summary>  From the original abstract:
+  This thesis initially aims to study the pain assessment process from a
+clinical-theoretical perspective while exploring and examining existing
+automatic approaches. Building on this foundation, the primary objective of
+this Ph.D. project is to develop innovative computational methods for automatic
+pain assessment that achieve high performance and are applicable in real
+clinical settings. A primary goal is to thoroughly investigate and assess
+significant factors, including demographic elements that impact pain
+perception, as recognized in pain research, through a computational standpoint.
+Within the limits of the available data in this research area, our goal was to
+design, develop, propose, and offer automatic pain assessment pipelines for
+unimodal and multimodal configurations that are applicable to the specific
+requirements of different scenarios. The studies published in this Ph.D. thesis
+showcased the effectiveness of the proposed methods, achieving state-of-the-art
+results. Additionally, they paved the way for exploring new approaches in
+artificial intelligence, foundation models, and generative artificial
+intelligence.
+</summary>
+    <author>
+      <name>Stefanos Gkikas</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05396v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05396v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05375v1</id>
+    <updated>2025-05-08T16:09:40Z</updated>
+    <published>2025-05-08T16:09:40Z</published>
+    <title>Threshold Modulation for Online Test-Time Adaptation of Spiking Neural
+  Networks</title>
+    <summary>  Recently, spiking neural networks (SNNs), deployed on neuromorphic chips,
+provide highly efficient solutions on edge devices in different scenarios.
+However, their ability to adapt to distribution shifts after deployment has
+become a crucial challenge. Online test-time adaptation (OTTA) offers a
+promising solution by enabling models to dynamically adjust to new data
+distributions without requiring source data or labeled target samples.
+Nevertheless, existing OTTA methods are largely designed for traditional
+artificial neural networks and are not well-suited for SNNs. To address this
+gap, we propose a low-power, neuromorphic chip-friendly online test-time
+adaptation framework, aiming to enhance model generalization under distribution
+shifts. The proposed approach is called Threshold Modulation (TM), which
+dynamically adjusts the firing threshold through neuronal dynamics-inspired
+normalization, being more compatible with neuromorphic hardware. Experimental
+results on benchmark datasets demonstrate the effectiveness of this method in
+improving the robustness of SNNs against distribution shifts while maintaining
+low computational cost. The proposed method offers a practical solution for
+online test-time adaptation of SNNs, providing inspiration for the design of
+future neuromorphic chips. The demo code is available at
+github.com/NneurotransmitterR/TM-OTTA-SNN.
+</summary>
+    <author>
+      <name>Kejie Zhao</name>
+    </author>
+    <author>
+      <name>Wenjia Hua</name>
+    </author>
+    <author>
+      <name>Aiersi Tuerhong</name>
+    </author>
+    <author>
+      <name>Luziwei Leng</name>
+    </author>
+    <author>
+      <name>Yuxin Ma</name>
+    </author>
+    <author>
+      <name>Qinghua Guo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted by IJCNN 2025. \c{opyright} 2025 IEEE. Personal use of this
+  material is permitted. Permission from IEEE must be obtained for all other
+  uses, including reprinting/republishing this material for advertising or
+  promotional purposes, collecting new collected works for resale or
+  redistribution to servers or lists, or reuse of any copyrighted component of
+  this work in other works</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05375v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05375v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05371v1</id>
+    <updated>2025-05-08T16:07:10Z</updated>
+    <published>2025-05-08T16:07:10Z</published>
+    <title>From Sleep Staging to Spindle Detection: Evaluating End-to-End Automated
+  Sleep Analysis</title>
+    <summary>  Automation of sleep analysis, including both macrostructural (sleep stages)
+and microstructural (e.g., sleep spindles) elements, promises to enable
+large-scale sleep studies and to reduce variance due to inter-rater
+incongruencies. While individual steps, such as sleep staging and spindle
+detection, have been studied separately, the feasibility of automating
+multi-step sleep analysis remains unclear. Here, we evaluate whether a fully
+automated analysis using state-of-the-art machine learning models for sleep
+staging (RobustSleepNet) and subsequent spindle detection (SUMOv2) can
+replicate findings from an expert-based study of bipolar disorder. The
+automated analysis qualitatively reproduced key findings from the expert-based
+study, including significant differences in fast spindle densities between
+bipolar patients and healthy controls, accomplishing in minutes what previously
+took months to complete manually. While the results of the automated analysis
+differed quantitatively from the expert-based study, possibly due to biases
+between expert raters or between raters and the models, the models individually
+performed at or above inter-rater agreement for both sleep staging and spindle
+detection. Our results demonstrate that fully automated approaches have the
+potential to facilitate large-scale sleep research. We are providing public
+access to the tools used in our automated analysis by sharing our code and
+introducing SomnoBot, a privacy-preserving sleep analysis platform.
+</summary>
+    <author>
+      <name>Niklas Grieger</name>
+    </author>
+    <author>
+      <name>Siamak Mehrkanoon</name>
+    </author>
+    <author>
+      <name>Philipp Ritter</name>
+    </author>
+    <author>
+      <name>Stephan Bialonski</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, 4 figures, 2 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05371v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05371v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05327v1</id>
+    <updated>2025-05-08T15:17:37Z</updated>
+    <published>2025-05-08T15:17:37Z</published>
+    <title>ICon: In-Context Contribution for Automatic Data Selection</title>
+    <summary>  Data selection for instruction tuning is essential for improving the
+performance of Large Language Models (LLMs) and reducing training cost.
+However, existing automated selection methods either depend on computationally
+expensive gradient-based measures or manually designed heuristics, which may
+fail to fully exploit the intrinsic attributes of data. In this paper, we
+propose In-context Learning for Contribution Measurement (ICon), a novel
+gradient-free method that takes advantage of the implicit fine-tuning nature of
+in-context learning (ICL) to measure sample contribution without gradient
+computation or manual indicators engineering. ICon offers a computationally
+efficient alternative to gradient-based methods and reduces human inductive
+bias inherent in heuristic-based approaches. ICon comprises three components
+and identifies high-contribution data by assessing performance shifts under
+implicit learning through ICL. Extensive experiments on three LLMs across 12
+benchmarks and 5 pairwise evaluation sets demonstrate the effectiveness of
+ICon. Remarkably, on LLaMA3.1-8B, models trained on 15% of ICon-selected data
+outperform full datasets by 5.42% points and exceed the best performance of
+widely used selection methods by 2.06% points. We further analyze
+high-contribution samples selected by ICon, which show both diverse tasks and
+appropriate difficulty levels, rather than just the hardest ones.
+</summary>
+    <author>
+      <name>Yixin Yang</name>
+    </author>
+    <author>
+      <name>Qingxiu Dong</name>
+    </author>
+    <author>
+      <name>Linli Yao</name>
+    </author>
+    <author>
+      <name>Fangwei Zhu</name>
+    </author>
+    <author>
+      <name>Zhifang Sui</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05327v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05327v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05315v1</id>
+    <updated>2025-05-08T15:01:06Z</updated>
+    <published>2025-05-08T15:01:06Z</published>
+    <title>Scalable Chain of Thoughts via Elastic Reasoning</title>
+    <summary>  Large reasoning models (LRMs) have achieved remarkable progress on complex
+tasks by generating extended chains of thought (CoT). However, their
+uncontrolled output lengths pose significant challenges for real-world
+deployment, where inference-time budgets on tokens, latency, or compute are
+strictly constrained. We propose Elastic Reasoning, a novel framework for
+scalable chain of thoughts that explicitly separates reasoning into two
+phases--thinking and solution--with independently allocated budgets. At test
+time, Elastic Reasoning prioritize that completeness of solution segments,
+significantly improving reliability under tight resource constraints. To train
+models that are robust to truncated thinking, we introduce a lightweight
+budget-constrained rollout strategy, integrated into GRPO, which teaches the
+model to reason adaptively when the thinking process is cut short and
+generalizes effectively to unseen budget constraints without additional
+training. Empirical results on mathematical (AIME, MATH500) and programming
+(LiveCodeBench, Codeforces) benchmarks demonstrate that Elastic Reasoning
+performs robustly under strict budget constraints, while incurring
+significantly lower training cost than baseline methods. Remarkably, our
+approach also produces more concise and efficient reasoning even in
+unconstrained settings. Elastic Reasoning offers a principled and practical
+solution to the pressing challenge of controllable reasoning at scale.
+</summary>
+    <author>
+      <name>Yuhui Xu</name>
+    </author>
+    <author>
+      <name>Hanze Dong</name>
+    </author>
+    <author>
+      <name>Lei Wang</name>
+    </author>
+    <author>
+      <name>Doyen Sahoo</name>
+    </author>
+    <author>
+      <name>Junnan Li</name>
+    </author>
+    <author>
+      <name>Caiming Xiong</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05315v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05315v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05298v1</id>
+    <updated>2025-05-08T14:41:07Z</updated>
+    <published>2025-05-08T14:41:07Z</published>
+    <title>Toward Reasonable Parrots: Why Large Language Models Should Argue with
+  Us by Design</title>
+    <summary>  In this position paper, we advocate for the development of conversational
+technology that is inherently designed to support and facilitate argumentative
+processes. We argue that, at present, large language models (LLMs) are
+inadequate for this purpose, and we propose an ideal technology design aimed at
+enhancing argumentative skills. This involves re-framing LLMs as tools to
+exercise our critical thinking rather than replacing them. We introduce the
+concept of 'reasonable parrots' that embody the fundamental principles of
+relevance, responsibility, and freedom, and that interact through argumentative
+dialogical moves. These principles and moves arise out of millennia of work in
+argumentation theory and should serve as the starting point for LLM-based
+technology that incorporates basic principles of argumentation.
+</summary>
+    <author>
+      <name>Elena Musi</name>
+    </author>
+    <author>
+      <name>Nadin Kokciyan</name>
+    </author>
+    <author>
+      <name>Khalid Al-Khatib</name>
+    </author>
+    <author>
+      <name>Davide Ceolin</name>
+    </author>
+    <author>
+      <name>Emmanuelle Dietz</name>
+    </author>
+    <author>
+      <name>Klara Gutekunst</name>
+    </author>
+    <author>
+      <name>Annette Hautli-Janisz</name>
+    </author>
+    <author>
+      <name>Cristian Manuel Santibañez Yañez</name>
+    </author>
+    <author>
+      <name>Jodi Schneider</name>
+    </author>
+    <author>
+      <name>Jonas Scholz</name>
+    </author>
+    <author>
+      <name>Cor Steging</name>
+    </author>
+    <author>
+      <name>Jacky Visser</name>
+    </author>
+    <author>
+      <name>Henning Wachsmuth</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05298v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05298v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05295v1</id>
+    <updated>2025-05-08T14:34:44Z</updated>
+    <published>2025-05-08T14:34:44Z</published>
+    <title>Performance Estimation in Binary Classification Using Calibrated
+  Confidence</title>
+    <summary>  Model monitoring is a critical component of the machine learning lifecycle,
+safeguarding against undetected drops in the model's performance after
+deployment. Traditionally, performance monitoring has required access to ground
+truth labels, which are not always readily available. This can result in
+unacceptable latency or render performance monitoring altogether impossible.
+Recently, methods designed to estimate the accuracy of classifier models
+without access to labels have shown promising results. However, there are
+various other metrics that might be more suitable for assessing model
+performance in many cases. Until now, none of these important metrics has
+received similar interest from the scientific community. In this work, we
+address this gap by presenting CBPE, a novel method that can estimate any
+binary classification metric defined using the confusion matrix. In particular,
+we choose four metrics from this large family: accuracy, precision, recall, and
+F$_1$, to demonstrate our method. CBPE treats the elements of the confusion
+matrix as random variables and leverages calibrated confidence scores of the
+model to estimate their distributions. The desired metric is then also treated
+as a random variable, whose full probability distribution can be derived from
+the estimated confusion matrix. CBPE is shown to produce estimates that come
+with strong theoretical guarantees and valid confidence intervals.
+</summary>
+    <author>
+      <name>Juhani Kivimäki</name>
+    </author>
+    <author>
+      <name>Jakub Białek</name>
+    </author>
+    <author>
+      <name>Wojtek Kuberski</name>
+    </author>
+    <author>
+      <name>Jukka K. Nurminen</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05295v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05295v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="I.2.6" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05287v1</id>
+    <updated>2025-05-08T14:29:00Z</updated>
+    <published>2025-05-08T14:29:00Z</published>
+    <title>Morphologically Symmetric Reinforcement Learning for Ambidextrous
+  Bimanual Manipulation</title>
+    <summary>  Humans naturally exhibit bilateral symmetry in their gross manipulation
+skills, effortlessly mirroring simple actions between left and right hands.
+Bimanual robots-which also feature bilateral symmetry-should similarly exploit
+this property to perform tasks with either hand. Unlike humans, who often favor
+a dominant hand for fine dexterous skills, robots should ideally execute
+ambidextrous manipulation with equal proficiency. To this end, we introduce
+SYMDEX (SYMmetric DEXterity), a reinforcement learning framework for
+ambidextrous bi-manipulation that leverages the robot's inherent bilateral
+symmetry as an inductive bias. SYMDEX decomposes complex bimanual manipulation
+tasks into per-hand subtasks and trains dedicated policies for each. By
+exploiting bilateral symmetry via equivariant neural networks, experience from
+one arm is inherently leveraged by the opposite arm. We then distill the
+subtask policies into a global ambidextrous policy that is independent of the
+hand-task assignment. We evaluate SYMDEX on six challenging simulated
+manipulation tasks and demonstrate successful real-world deployment on two of
+them. Our approach strongly outperforms baselines on complex task in which the
+left and right hands perform different roles. We further demonstrate SYMDEX's
+scalability by extending it to a four-arm manipulation setup, where our
+symmetry-aware policies enable effective multi-arm collaboration and
+coordination. Our results highlight how structural symmetry as inductive bias
+in policy learning enhances sample efficiency, robustness, and generalization
+across diverse dexterous manipulation tasks.
+</summary>
+    <author>
+      <name>Zechu Li</name>
+    </author>
+    <author>
+      <name>Yufeng Jin</name>
+    </author>
+    <author>
+      <name>Daniel Ordonez Apraez</name>
+    </author>
+    <author>
+      <name>Claudio Semini</name>
+    </author>
+    <author>
+      <name>Puze Liu</name>
+    </author>
+    <author>
+      <name>Georgia Chalvatzaki</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05287v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05287v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05262v1</id>
+    <updated>2025-05-08T14:07:20Z</updated>
+    <published>2025-05-08T14:07:20Z</published>
+    <title>Enhancing Cooperative Multi-Agent Reinforcement Learning with State
+  Modelling and Adversarial Exploration</title>
+    <summary>  Learning to cooperate in distributed partially observable environments with
+no communication abilities poses significant challenges for multi-agent deep
+reinforcement learning (MARL). This paper addresses key concerns in this
+domain, focusing on inferring state representations from individual agent
+observations and leveraging these representations to enhance agents'
+exploration and collaborative task execution policies. To this end, we propose
+a novel state modelling framework for cooperative MARL, where agents infer
+meaningful belief representations of the non-observable state, with respect to
+optimizing their own policies, while filtering redundant and less informative
+joint state information. Building upon this framework, we propose the MARL SMPE
+algorithm. In SMPE, agents enhance their own policy's discriminative abilities
+under partial observability, explicitly by incorporating their beliefs into the
+policy network, and implicitly by adopting an adversarial type of exploration
+policies which encourages agents to discover novel, high-value states while
+improving the discriminative abilities of others. Experimentally, we show that
+SMPE outperforms state-of-the-art MARL algorithms in complex fully cooperative
+tasks from the MPE, LBF, and RWARE benchmarks.
+</summary>
+    <author>
+      <name>Andreas Kontogiannis</name>
+    </author>
+    <author>
+      <name>Konstantinos Papathanasiou</name>
+    </author>
+    <author>
+      <name>Yi Shen</name>
+    </author>
+    <author>
+      <name>Giorgos Stamou</name>
+    </author>
+    <author>
+      <name>Michael M. Zavlanos</name>
+    </author>
+    <author>
+      <name>George Vouros</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted (Poster) at ICML 2025</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05262v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05262v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05261v1</id>
+    <updated>2025-05-08T14:06:38Z</updated>
+    <published>2025-05-08T14:06:38Z</published>
+    <title>ICNN-enhanced 2SP: Leveraging input convex neural networks for solving
+  two-stage stochastic programming</title>
+    <summary>  Two-stage stochastic programming (2SP) offers a basic framework for modelling
+decision-making under uncertainty, yet scalability remains a challenge due to
+the computational complexity of recourse function evaluation. Existing
+learning-based methods like Neural Two-Stage Stochastic Programming (Neur2SP)
+employ neural networks (NNs) as recourse function surrogates but rely on
+computationally intensive mixed-integer programming (MIP) formulations. We
+propose ICNN-enhanced 2SP, a method that leverages Input Convex Neural Networks
+(ICNNs) to exploit linear programming (LP) representability in convex 2SP
+problems. By architecturally enforcing convexity and enabling exact inference
+through LP, our approach eliminates the need for integer variables inherent to
+the conventional MIP-based formulation while retaining an exact embedding of
+the ICNN surrogate within the 2SP framework. This results in a more
+computationally efficient alternative that maintains solution quality.
+Comprehensive experiments reveal that ICNNs incur only marginally longer
+training times while achieving validation accuracy on par with their MIP-based
+counterparts. Across benchmark problems, ICNN-enhanced 2SP often exhibits
+considerably faster solution times than the MIP-based formulations while
+preserving solution quality, with these advantages becoming significantly more
+pronounced as problem scale increases. For the most challenging instances, the
+method achieves speedups of up to 100$\times$ and solution quality superior to
+MIP-based formulations.
+</summary>
+    <author>
+      <name>Yu Liu</name>
+    </author>
+    <author>
+      <name>Fabricio Oliveira</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05261v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05261v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05242v1</id>
+    <updated>2025-05-08T13:42:00Z</updated>
+    <published>2025-05-08T13:42:00Z</published>
+    <title>Enhancing Treatment Effect Estimation via Active Learning: A
+  Counterfactual Covering Perspective</title>
+    <summary>  Although numerous complex algorithms for treatment effect estimation have
+been developed in recent years, their effectiveness remains limited when
+handling insufficiently labeled training sets due to the high cost of labeling
+the effect after treatment, e.g., expensive tumor imaging or biopsy procedures
+needed to evaluate treatment effects. Therefore, it becomes essential to
+actively incorporate more high-quality labeled data, all while adhering to a
+constrained labeling budget. To enable data-efficient treatment effect
+estimation, we formalize the problem through rigorous theoretical analysis
+within the active learning context, where the derived key measures --
+\textit{factual} and \textit{counterfactual covering radius} determine the risk
+upper bound. To reduce the bound, we propose a greedy radius reduction
+algorithm, which excels under an idealized, balanced data distribution. To
+generalize to more realistic data distributions, we further propose FCCM, which
+transforms the optimization objective into the \textit{Factual} and
+\textit{Counterfactual Coverage Maximization} to ensure effective radius
+reduction during data acquisition. Furthermore, benchmarking FCCM against other
+baselines demonstrates its superiority across both fully synthetic and
+semi-synthetic datasets.
+</summary>
+    <author>
+      <name>Hechuan Wen</name>
+    </author>
+    <author>
+      <name>Tong Chen</name>
+    </author>
+    <author>
+      <name>Mingming Gong</name>
+    </author>
+    <author>
+      <name>Li Kheng Chai</name>
+    </author>
+    <author>
+      <name>Shazia Sadiq</name>
+    </author>
+    <author>
+      <name>Hongzhi Yin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted by ICML'25</arxiv:comment>
+    <link href="http://arxiv.org/abs/2505.05242v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05242v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.05237v1</id>
+    <updated>2025-05-08T13:32:09Z</updated>
+    <published>2025-05-08T13:32:09Z</published>
+    <title>Latte: Transfering LLMs` Latent-level Knowledge for Few-shot Tabular
+  Learning</title>
+    <summary>  Few-shot tabular learning, in which machine learning models are trained with
+a limited amount of labeled data, provides a cost-effective approach to
+addressing real-world challenges. The advent of Large Language Models (LLMs)
+has sparked interest in leveraging their pre-trained knowledge for few-shot
+tabular learning. Despite promising results, existing approaches either rely on
+test-time knowledge extraction, which introduces undesirable latency, or
+text-level knowledge, which leads to unreliable feature engineering. To
+overcome these limitations, we propose Latte, a training-time knowledge
+extraction framework that transfers the latent prior knowledge within LLMs to
+optimize a more generalized downstream model. Latte enables general
+knowledge-guided downstream tabular learning, facilitating the weighted fusion
+of information across different feature values while reducing the risk of
+overfitting to limited labeled data. Furthermore, Latte is compatible with
+existing unsupervised pre-training paradigms and effectively utilizes available
+unlabeled samples to overcome the performance limitations imposed by an
+extremely small labeled dataset. Extensive experiments on various few-shot
+tabular learning benchmarks demonstrate the superior performance of Latte,
+establishing it as a state-of-the-art approach in this domain
+</summary>
+    <author>
+      <name>Ruxue Shi</name>
+    </author>
+    <author>
+      <name>Hengrui Gu</name>
+    </author>
+    <author>
+      <name>Hangting Ye</name>
+    </author>
+    <author>
+      <name>Yiwei Dai</name>
+    </author>
+    <author>
+      <name>Xu Shen</name>
+    </author>
+    <author>
+      <name>Xin Wang</name>
+    </author>
+    <link href="http://arxiv.org/abs/2505.05237v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2505.05237v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
+
