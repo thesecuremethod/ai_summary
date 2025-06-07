@@ -4,7 +4,7 @@
 """
 Lambda: crawl arXiv, stream PDFs straight to S3
 
-ENV VARS
+ENVVARS
 --------
 ARXIV_SEARCH        full arXiv query string, e.g. 
                     "(cat:cs.LG OR cat:cs.CL) AND (all:application OR all:deployment)"
