@@ -24,10 +24,12 @@ from urllib.parse import quote_plus
 
 import boto3, botocore
 import requests
+from datetime import datetime
 
 # ---------- config -----------------------------------------------------------
 S3_BUCKET   = os.environ["S3_BUCKET"]
-S3_PREFIX   = os.getenv("S3_PREFIX",  "")
+DEFAULT_PREFIX = f"arxiv/{datetime.utcnow().strftime('%Y-%m')}/"
+S3_PREFIX = os.getenv("S3_PREFIX", DEFAULT_PREFIX)
 QUERY       = os.environ["ARXIV_SEARCH"]
 MAX_RESULTS = int(os.getenv("ARXIV_MAX_RESULTS", "100"))
 ARXIV_EMAIL = os.environ["ARXIV_EMAIL"]
